@@ -7,7 +7,7 @@ use Collator;
 class ArrayUtils {
 
     /**
-     * Takes an array and transform to a string.
+     * Takes an array and transform it into a string.
      *
      * @param $array array we want to stringify
      * @return array|string the string construct with the array values separated by a comma.
