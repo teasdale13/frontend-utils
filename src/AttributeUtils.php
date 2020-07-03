@@ -58,8 +58,6 @@ class AttributeUtils {
                     break;
             }
         }
-
         return $input;
     }
-
 }
