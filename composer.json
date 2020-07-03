@@ -1,0 +1,18 @@
+{
+    "name": "teasdale13/wp-utils",
+    "description": "Library to help formatting things to display it on frontend.",
+    "type": "library",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Kevin Teasdale-Dubé",
+            "email": "kevin_teasdale_dube@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Frontend\\Utils\\": "src"
+        }
+    },
+    "require": {}
+}
