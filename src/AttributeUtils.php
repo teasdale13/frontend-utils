@@ -24,8 +24,7 @@ class AttributeUtils {
 
     public static function add_class_to_paragraph( $input, $classes = [] ) : string {
         if ( ! $input ) return '';
-        $input = self::remove_class( $input );
-        $input = self::remove_style( $input );
+        $input = self::remove_class( self::remove_style( $input ) );
         if (  empty( $classes ) ) return $input;
 
         $replace = '<p class="' . implode(' ', $classes) . '"$1';
